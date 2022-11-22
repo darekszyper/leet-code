@@ -39,41 +39,15 @@ public class RomanToInteger {
             s = s.replaceFirst("CM", "");
         }
 
-        while (!s.isEmpty()) {
-
-            if (Pattern.compile("I").matcher(s).find()) {
-                result += 1;
-                s = s.replaceFirst("I", "");
-            }
-
-            if (Pattern.compile("V").matcher(s).find()) {
-                result += 5;
-                s = s.replaceFirst("V", "");
-            }
-
-            if (Pattern.compile("X").matcher(s).find()) {
-                result += 10;
-                s = s.replaceFirst("X", "");
-            }
-
-            if (Pattern.compile("L").matcher(s).find()) {
-                result += 50;
-                s = s.replaceFirst("L", "");
-            }
-
-            if (Pattern.compile("C").matcher(s).find()) {
-                result += 100;
-                s = s.replaceFirst("C", "");
-            }
-
-            if (Pattern.compile("D").matcher(s).find()) {
-                result += 500;
-                s = s.replaceFirst("D", "");
-            }
-
-            if (Pattern.compile("M").matcher(s).find()) {
-                result += 1000;
-                s = s.replaceFirst("M", "");
+        for (int i = 0; i < s.length(); i++) {
+            switch (s.charAt(i)) {
+                case 'I': result += 1; break;
+                case 'V': result += 5; break;
+                case 'X': result += 10; break;
+                case 'L': result += 50; break;
+                case 'C': result += 100; break;
+                case 'D': result += 500; break;
+                case 'M': result += 1000; break;
             }
         }
         return result;
