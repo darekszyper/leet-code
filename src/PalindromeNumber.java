@@ -1,13 +1,5 @@
 public class PalindromeNumber {
 
-    public static void main(String[] args) {
-        int palindrome = 121;
-        int notPalindrome = 123;
-
-        System.out.println(isPalindrome(palindrome));
-        System.out.println(isPalindrome(notPalindrome));
-    }
-
     public static boolean isPalindrome(int x) {
         if (x < 0) return false;
         String xString = String.valueOf(x);

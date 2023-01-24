@@ -2,15 +2,6 @@ import java.util.Arrays;
 
 public class LongestCommonPrefix {
 
-    public static void main(String[] args) {
-        String[] input = {""};
-        System.out.println(longestCommonPrefix(input));
-        Arrays.sort(input);
-        for (String word: input) {
-            System.out.println(word);
-        }
-    }
-
     public static String longestCommonPrefix(String[] strs) {
         if (strs == null || strs.length == 0) return "";
 

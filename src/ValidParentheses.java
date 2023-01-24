@@ -2,10 +2,6 @@ import java.util.Stack;
 
 public class ValidParentheses {
 
-    public static void main(String[] args) {
-        System.out.println(isValid("[]"));
-    }
-
     public static boolean isValid(String s) {
         //Checking if input is not empty, null or starting from closing bracket.
         //All of those cases would mean input string is invalid.
