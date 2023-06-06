@@ -1,26 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="13f1a77c-6b54-44af-953c-9036abbbc201" name="Changes" comment="ValidParentheses done">
-      <change afterPath="$PROJECT_DIR$/src/AddTwoNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FindPlayersWithZeroOrOneLosses.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MedianOfTwoSortedArrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MergeTwoSorterdLists.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PerfectSquares.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RemoveDuplicatesFromSortedArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RemoveElement.java" afterDir="false" />
+    <list default="true" id="13f1a77c-6b54-44af-953c-9036abbbc201" name="Changes" comment="Few other exercises done">
+      <change afterPath="$PROJECT_DIR$/src/ReverseInteger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/LongestCommonPrefix.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/LongestCommonPrefix.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/PalindromeNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/PalindromeNumber.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/RomanToInteger.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/RomanToInteger.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/TwoSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/TwoSum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/ValidParentheses.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/ValidParentheses.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LongestCommonPrefix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LongestCommonPrefix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PalindromeNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PalindromeNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RomanToInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RomanToInteger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TwoSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TwoSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ValidParentheses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ValidParentheses.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,13 +29,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/dariu/IdeaProjects/LeetCode&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/dariu/IdeaProjects/LeetCode",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="" />
@@ -111,6 +97,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1668715542478</updated>
+      <workItem from="1686085216731" duration="1263000" />
     </task>
     <task id="LOCAL-00001" summary="Roman to Integer done">
       <created>1668720433799</created>
@@ -133,8 +120,18 @@
       <option name="project" value="LOCAL" />
       <updated>1669101666615</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Few other exercises done">
+      <created>1674553996896</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1674553996896</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -150,7 +147,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Roman to Integer done" />
     <MESSAGE value="ValidParentheses done" />
-    <option name="LAST_COMMIT_MESSAGE" value="ValidParentheses done" />
+    <MESSAGE value="Few other exercises done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Few other exercises done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
