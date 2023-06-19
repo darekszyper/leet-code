@@ -13,6 +13,7 @@ target/
 .sts4-cache
 
 ### IntelliJ IDEA ###
+out
 .idea
 *.iws
 *.iml
